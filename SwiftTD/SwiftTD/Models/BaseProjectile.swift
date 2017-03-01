@@ -10,6 +10,8 @@ import UIKit
 import SpriteKit
 
 class BaseProjectile: SKSpriteNode {
+    var damage: Int = 0
+    var hitTarget: Bool = false
     
     init(texture: SKTexture, color: UIColor) {
         super.init(texture: texture, color: color, size: texture.size())

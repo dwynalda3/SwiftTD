@@ -13,12 +13,10 @@ class BaseTower: SKSpriteNode {
     var projectiles: [BaseProjectile] = []
     var radius: Int = 100
     var targets: [BaseMonster] = []
-    var damage: Int = 0
     
-    init(damage: Int, radius: Int, texture: SKTexture, color: UIColor) {
+    init(radius: Int, texture: SKTexture, color: UIColor) {
         super.init(texture: texture, color: color, size: texture.size())
         self.radius = radius
-        self.damage = damage
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -13,6 +13,7 @@ class BaseMonster: SKSpriteNode {
     var damage: Int = 0
     var hitPoints: Int = 0
     var isDead: Bool = false
+    var clearedStage = false
     
     init(damage: Int, hitPoints: Int, texture: SKTexture, color: UIColor) {
         super.init(texture: texture, color: color, size: texture.size())

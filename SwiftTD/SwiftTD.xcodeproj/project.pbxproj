@@ -17,6 +17,9 @@
 		701E16421E6126B3007EEAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701E16401E6126B3007EEAD9 /* LaunchScreen.storyboard */; };
 		701E164D1E6126B3007EEAD9 /* SwiftTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E164C1E6126B3007EEAD9 /* SwiftTDTests.swift */; };
 		701E16581E6126B3007EEAD9 /* SwiftTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16571E6126B3007EEAD9 /* SwiftTDUITests.swift */; };
+		701E16671E62B6E7007EEAD9 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16661E62B6E7007EEAD9 /* Tower.swift */; };
+		701E166C1E62B815007EEAD9 /* TestTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E166B1E62B815007EEAD9 /* TestTower.swift */; };
+		701E16701E665146007EEAD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E166F1E665146007EEAD9 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		701E16531E6126B3007EEAD9 /* SwiftTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701E16571E6126B3007EEAD9 /* SwiftTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTDUITests.swift; sourceTree = "<group>"; };
 		701E16591E6126B3007EEAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701E16661E62B6E7007EEAD9 /* Tower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		701E166B1E62B815007EEAD9 /* TestTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTower.swift; sourceTree = "<group>"; };
+		701E166F1E665146007EEAD9 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		701E16301E6126B3007EEAD9 /* SwiftTD */ = {
 			isa = PBXGroup;
 			children = (
+				701E166E1E665126007EEAD9 /* Controllers */,
+				701E166D1E665118007EEAD9 /* Views */,
+				701E16651E62B6B9007EEAD9 /* Models */,
 				701E16311E6126B3007EEAD9 /* AppDelegate.swift */,
 				701E16331E6126B3007EEAD9 /* GameScene.sks */,
 				701E16351E6126B3007EEAD9 /* Actions.sks */,
@@ -132,6 +141,38 @@
 				701E16591E6126B3007EEAD9 /* Info.plist */,
 			);
 			path = SwiftTDUITests;
+			sourceTree = "<group>";
+		};
+		701E16651E62B6B9007EEAD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				701E166A1E62B803007EEAD9 /* TowerTypes */,
+				701E16661E62B6E7007EEAD9 /* Tower.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		701E166A1E62B803007EEAD9 /* TowerTypes */ = {
+			isa = PBXGroup;
+			children = (
+				701E166B1E62B815007EEAD9 /* TestTower.swift */,
+			);
+			name = TowerTypes;
+			sourceTree = "<group>";
+		};
+		701E166D1E665118007EEAD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				701E166F1E665146007EEAD9 /* Grid.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		701E166E1E665126007EEAD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701E166C1E62B815007EEAD9 /* TestTower.swift in Sources */,
 				701E16381E6126B3007EEAD9 /* GameScene.swift in Sources */,
 				701E163A1E6126B3007EEAD9 /* GameViewController.swift in Sources */,
 				701E16321E6126B3007EEAD9 /* AppDelegate.swift in Sources */,
+				701E16671E62B6E7007EEAD9 /* Tower.swift in Sources */,
+				701E16701E665146007EEAD9 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

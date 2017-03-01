@@ -9,5 +9,6 @@
 import UIKit
 
 class BaseTower: SKSpriteNode {
-
+    var projectiles: [BaseProjectile]
+    var radius: Int
 }

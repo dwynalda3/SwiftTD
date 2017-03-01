@@ -9,5 +9,5 @@
 import UIKit
 
 class BaseProjectile: SKSpriteNode {
-
+    var img: SKTexture
 }

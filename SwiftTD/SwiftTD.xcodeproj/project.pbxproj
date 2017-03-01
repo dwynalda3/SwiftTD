@@ -17,14 +17,13 @@
 		701E16421E6126B3007EEAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701E16401E6126B3007EEAD9 /* LaunchScreen.storyboard */; };
 		701E164D1E6126B3007EEAD9 /* SwiftTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E164C1E6126B3007EEAD9 /* SwiftTDTests.swift */; };
 		701E16581E6126B3007EEAD9 /* SwiftTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16571E6126B3007EEAD9 /* SwiftTDUITests.swift */; };
-		701E16721E665342007EEAD9 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 701E16711E665342007EEAD9 /* Views */; };
-		701E16761E665386007EEAD9 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 701E16741E665386007EEAD9 /* Controllers */; };
-		701E16891E6667BB007EEAD9 /* BaseMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16801E6667BB007EEAD9 /* BaseMonster.swift */; };
-		701E168A1E6667BB007EEAD9 /* BaseProjectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16811E6667BB007EEAD9 /* BaseProjectile.swift */; };
-		701E168B1E6667BB007EEAD9 /* BaseTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16821E6667BB007EEAD9 /* BaseTower.swift */; };
-		701E168C1E6667BB007EEAD9 /* TestMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16841E6667BB007EEAD9 /* TestMonster.swift */; };
-		701E168D1E6667BB007EEAD9 /* TestProjectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16861E6667BB007EEAD9 /* TestProjectile.swift */; };
-		701E168E1E6667BB007EEAD9 /* TestTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16881E6667BB007EEAD9 /* TestTower.swift */; };
+		701E16991E666870007EEAD9 /* BaseMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16901E666870007EEAD9 /* BaseMonster.swift */; };
+		701E169A1E666870007EEAD9 /* BaseProjectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16911E666870007EEAD9 /* BaseProjectile.swift */; };
+		701E169B1E666870007EEAD9 /* BaseTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16921E666870007EEAD9 /* BaseTower.swift */; };
+		701E169C1E666870007EEAD9 /* TestMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16941E666870007EEAD9 /* TestMonster.swift */; };
+		701E169D1E666870007EEAD9 /* TestProjectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16961E666870007EEAD9 /* TestProjectile.swift */; };
+		701E169E1E666870007EEAD9 /* TestTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16981E666870007EEAD9 /* TestTower.swift */; };
+		701E16A21E666894007EEAD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A11E666894007EEAD9 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,14 +60,13 @@
 		701E16531E6126B3007EEAD9 /* SwiftTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701E16571E6126B3007EEAD9 /* SwiftTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTDUITests.swift; sourceTree = "<group>"; };
 		701E16591E6126B3007EEAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		701E16711E665342007EEAD9 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		701E16741E665386007EEAD9 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
-		701E16801E6667BB007EEAD9 /* BaseMonster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMonster.swift; sourceTree = "<group>"; };
-		701E16811E6667BB007EEAD9 /* BaseProjectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProjectile.swift; sourceTree = "<group>"; };
-		701E16821E6667BB007EEAD9 /* BaseTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTower.swift; sourceTree = "<group>"; };
-		701E16841E6667BB007EEAD9 /* TestMonster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMonster.swift; sourceTree = "<group>"; };
-		701E16861E6667BB007EEAD9 /* TestProjectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectile.swift; sourceTree = "<group>"; };
-		701E16881E6667BB007EEAD9 /* TestTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTower.swift; sourceTree = "<group>"; };
+		701E16901E666870007EEAD9 /* BaseMonster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMonster.swift; sourceTree = "<group>"; };
+		701E16911E666870007EEAD9 /* BaseProjectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProjectile.swift; sourceTree = "<group>"; };
+		701E16921E666870007EEAD9 /* BaseTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTower.swift; sourceTree = "<group>"; };
+		701E16941E666870007EEAD9 /* TestMonster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMonster.swift; sourceTree = "<group>"; };
+		701E16961E666870007EEAD9 /* TestProjectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectile.swift; sourceTree = "<group>"; };
+		701E16981E666870007EEAD9 /* TestTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTower.swift; sourceTree = "<group>"; };
+		701E16A11E666894007EEAD9 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +117,9 @@
 		701E16301E6126B3007EEAD9 /* SwiftTD */ = {
 			isa = PBXGroup;
 			children = (
-				701E167F1E6667BB007EEAD9 /* Models */,
-				701E16741E665386007EEAD9 /* Controllers */,
-				701E16711E665342007EEAD9 /* Views */,
+				701E169F1E666894007EEAD9 /* Controllers */,
+				701E16A01E666894007EEAD9 /* Views */,
+				701E168F1E666870007EEAD9 /* Models */,
 				701E16311E6126B3007EEAD9 /* AppDelegate.swift */,
 				701E16331E6126B3007EEAD9 /* GameScene.sks */,
 				701E16351E6126B3007EEAD9 /* Actions.sks */,
@@ -153,42 +151,56 @@
 			path = SwiftTDUITests;
 			sourceTree = "<group>";
 		};
-		701E167F1E6667BB007EEAD9 /* Models */ = {
+		701E168F1E666870007EEAD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				701E16801E6667BB007EEAD9 /* BaseMonster.swift */,
-				701E16811E6667BB007EEAD9 /* BaseProjectile.swift */,
-				701E16821E6667BB007EEAD9 /* BaseTower.swift */,
-				701E16831E6667BB007EEAD9 /* Monsters */,
-				701E16851E6667BB007EEAD9 /* ProjectileTypes */,
-				701E16871E6667BB007EEAD9 /* TowerTypes */,
+				701E16901E666870007EEAD9 /* BaseMonster.swift */,
+				701E16911E666870007EEAD9 /* BaseProjectile.swift */,
+				701E16921E666870007EEAD9 /* BaseTower.swift */,
+				701E16931E666870007EEAD9 /* Monsters */,
+				701E16951E666870007EEAD9 /* ProjectileTypes */,
+				701E16971E666870007EEAD9 /* TowerTypes */,
 			);
-			name = Models;
-			path = Controllers/Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		701E16831E6667BB007EEAD9 /* Monsters */ = {
+		701E16931E666870007EEAD9 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
-				701E16841E6667BB007EEAD9 /* TestMonster.swift */,
+				701E16941E666870007EEAD9 /* TestMonster.swift */,
 			);
 			path = Monsters;
 			sourceTree = "<group>";
 		};
-		701E16851E6667BB007EEAD9 /* ProjectileTypes */ = {
+		701E16951E666870007EEAD9 /* ProjectileTypes */ = {
 			isa = PBXGroup;
 			children = (
-				701E16861E6667BB007EEAD9 /* TestProjectile.swift */,
+				701E16961E666870007EEAD9 /* TestProjectile.swift */,
 			);
 			path = ProjectileTypes;
 			sourceTree = "<group>";
 		};
-		701E16871E6667BB007EEAD9 /* TowerTypes */ = {
+		701E16971E666870007EEAD9 /* TowerTypes */ = {
 			isa = PBXGroup;
 			children = (
-				701E16881E6667BB007EEAD9 /* TestTower.swift */,
+				701E16981E666870007EEAD9 /* TestTower.swift */,
 			);
 			path = TowerTypes;
+			sourceTree = "<group>";
+		};
+		701E169F1E666894007EEAD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		701E16A01E666894007EEAD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				701E16A11E666894007EEAD9 /* Grid.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +315,7 @@
 			files = (
 				701E163D1E6126B3007EEAD9 /* Main.storyboard in Resources */,
 				701E16341E6126B3007EEAD9 /* GameScene.sks in Resources */,
-				701E16761E665386007EEAD9 /* Controllers in Resources */,
 				701E163F1E6126B3007EEAD9 /* Assets.xcassets in Resources */,
-				701E16721E665342007EEAD9 /* Views in Resources */,
 				701E16421E6126B3007EEAD9 /* LaunchScreen.storyboard in Resources */,
 				701E16361E6126B3007EEAD9 /* Actions.sks in Resources */,
 			);
@@ -332,15 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701E168D1E6667BB007EEAD9 /* TestProjectile.swift in Sources */,
+				701E169D1E666870007EEAD9 /* TestProjectile.swift in Sources */,
 				701E16381E6126B3007EEAD9 /* GameScene.swift in Sources */,
-				701E168A1E6667BB007EEAD9 /* BaseProjectile.swift in Sources */,
-				701E168B1E6667BB007EEAD9 /* BaseTower.swift in Sources */,
-				701E168C1E6667BB007EEAD9 /* TestMonster.swift in Sources */,
+				701E169A1E666870007EEAD9 /* BaseProjectile.swift in Sources */,
+				701E16A21E666894007EEAD9 /* Grid.swift in Sources */,
+				701E169B1E666870007EEAD9 /* BaseTower.swift in Sources */,
+				701E169C1E666870007EEAD9 /* TestMonster.swift in Sources */,
 				701E163A1E6126B3007EEAD9 /* GameViewController.swift in Sources */,
 				701E16321E6126B3007EEAD9 /* AppDelegate.swift in Sources */,
-				701E16891E6667BB007EEAD9 /* BaseMonster.swift in Sources */,
-				701E168E1E6667BB007EEAD9 /* TestTower.swift in Sources */,
+				701E16991E666870007EEAD9 /* BaseMonster.swift in Sources */,
+				701E169E1E666870007EEAD9 /* TestTower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

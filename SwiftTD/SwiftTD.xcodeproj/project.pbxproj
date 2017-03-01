@@ -538,6 +538,7 @@
 				701E165E1E6126B3007EEAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		701E165F1E6126B3007EEAD9 /* Build configuration list for PBXNativeTarget "SwiftTDTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				701E16611E6126B3007EEAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		701E16621E6126B3007EEAD9 /* Build configuration list for PBXNativeTarget "SwiftTDUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +556,7 @@
 				701E16641E6126B3007EEAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

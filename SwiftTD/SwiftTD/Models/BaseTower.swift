@@ -9,6 +9,13 @@
 import UIKit
 import SpriteKit
 
+enum TowerType {
+    case Fire
+    case Water
+    case Earth
+    case Air
+}
+
 class BaseTower: SKSpriteNode {
     var projectiles: [BaseProjectile] = []
     var radius: Int = 100

@@ -24,6 +24,7 @@
 		701E169D1E666870007EEAD9 /* TestProjectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16961E666870007EEAD9 /* TestProjectile.swift */; };
 		701E169E1E666870007EEAD9 /* TestTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16981E666870007EEAD9 /* TestTower.swift */; };
 		701E16A21E666894007EEAD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A11E666894007EEAD9 /* Grid.swift */; };
+		701E16A41E666FB1007EEAD9 /* MazeSolverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A31E666FB1007EEAD9 /* MazeSolverController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		701E16961E666870007EEAD9 /* TestProjectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProjectile.swift; sourceTree = "<group>"; };
 		701E16981E666870007EEAD9 /* TestTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTower.swift; sourceTree = "<group>"; };
 		701E16A11E666894007EEAD9 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		701E16A31E666FB1007EEAD9 /* MazeSolverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeSolverController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 		701E169F1E666894007EEAD9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				701E16A31E666FB1007EEAD9 /* MazeSolverController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				701E169D1E666870007EEAD9 /* TestProjectile.swift in Sources */,
+				701E16A41E666FB1007EEAD9 /* MazeSolverController.swift in Sources */,
 				701E16381E6126B3007EEAD9 /* GameScene.swift in Sources */,
 				701E169A1E666870007EEAD9 /* BaseProjectile.swift in Sources */,
 				701E16A21E666894007EEAD9 /* Grid.swift in Sources */,

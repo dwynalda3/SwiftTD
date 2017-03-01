@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import SpriteKit
 
 class BaseProjectile: SKSpriteNode {
-    var img: SKTexture
+    
+    init(texture: SKTexture, color: UIColor) {
+        super.init(texture: texture, color: color, size: texture.size())
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

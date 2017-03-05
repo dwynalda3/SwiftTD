@@ -25,6 +25,13 @@
 		701E169E1E666870007EEAD9 /* TestTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16981E666870007EEAD9 /* TestTower.swift */; };
 		701E16A21E666894007EEAD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A11E666894007EEAD9 /* Grid.swift */; };
 		701E16A41E666FB1007EEAD9 /* MazeSolverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A31E666FB1007EEAD9 /* MazeSolverController.swift */; };
+		701E16A71E6BD665007EEAD9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A61E6BD665007EEAD9 /* SignInViewController.swift */; };
+		701E16A91E6BD67D007EEAD9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16A81E6BD67D007EEAD9 /* SignUpViewController.swift */; };
+		701E16AB1E6BD693007EEAD9 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16AA1E6BD693007EEAD9 /* MainMenuViewController.swift */; };
+		701E16AD1E6BD6A1007EEAD9 /* GameModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E16AC1E6BD6A1007EEAD9 /* GameModeViewController.swift */; };
+		709A7FDB1E6BD6D100CCCDA1 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A7FDA1E6BD6D100CCCDA1 /* DifficultyViewController.swift */; };
+		709A7FDD1E6BD6EB00CCCDA1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A7FDC1E6BD6EB00CCCDA1 /* SettingsViewController.swift */; };
+		709A7FDF1E6BD71600CCCDA1 /* MultiplayerWaitingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A7FDE1E6BD71600CCCDA1 /* MultiplayerWaitingRoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +76,13 @@
 		701E16981E666870007EEAD9 /* TestTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTower.swift; sourceTree = "<group>"; };
 		701E16A11E666894007EEAD9 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		701E16A31E666FB1007EEAD9 /* MazeSolverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeSolverController.swift; sourceTree = "<group>"; };
+		701E16A61E6BD665007EEAD9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		701E16A81E6BD67D007EEAD9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		701E16AA1E6BD693007EEAD9 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		701E16AC1E6BD6A1007EEAD9 /* GameModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModeViewController.swift; sourceTree = "<group>"; };
+		709A7FDA1E6BD6D100CCCDA1 /* DifficultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		709A7FDC1E6BD6EB00CCCDA1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		709A7FDE1E6BD71600CCCDA1 /* MultiplayerWaitingRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerWaitingRoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +133,7 @@
 		701E16301E6126B3007EEAD9 /* SwiftTD */ = {
 			isa = PBXGroup;
 			children = (
+				701E16A51E6BCB21007EEAD9 /* ViewControllers */,
 				701E169F1E666894007EEAD9 /* Controllers */,
 				701E16A01E666894007EEAD9 /* Views */,
 				701E168F1E666870007EEAD9 /* Models */,
@@ -126,7 +141,6 @@
 				701E16331E6126B3007EEAD9 /* GameScene.sks */,
 				701E16351E6126B3007EEAD9 /* Actions.sks */,
 				701E16371E6126B3007EEAD9 /* GameScene.swift */,
-				701E16391E6126B3007EEAD9 /* GameViewController.swift */,
 				701E163B1E6126B3007EEAD9 /* Main.storyboard */,
 				701E163E1E6126B3007EEAD9 /* Assets.xcassets */,
 				701E16401E6126B3007EEAD9 /* LaunchScreen.storyboard */,
@@ -204,6 +218,21 @@
 				701E16A11E666894007EEAD9 /* Grid.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		701E16A51E6BCB21007EEAD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				701E16391E6126B3007EEAD9 /* GameViewController.swift */,
+				701E16A61E6BD665007EEAD9 /* SignInViewController.swift */,
+				701E16A81E6BD67D007EEAD9 /* SignUpViewController.swift */,
+				701E16AA1E6BD693007EEAD9 /* MainMenuViewController.swift */,
+				701E16AC1E6BD6A1007EEAD9 /* GameModeViewController.swift */,
+				709A7FDA1E6BD6D100CCCDA1 /* DifficultyViewController.swift */,
+				709A7FDC1E6BD6EB00CCCDA1 /* SettingsViewController.swift */,
+				709A7FDE1E6BD71600CCCDA1 /* MultiplayerWaitingRoomViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,12 +378,19 @@
 				701E16A41E666FB1007EEAD9 /* MazeSolverController.swift in Sources */,
 				701E16381E6126B3007EEAD9 /* GameScene.swift in Sources */,
 				701E169A1E666870007EEAD9 /* BaseProjectile.swift in Sources */,
+				701E16AB1E6BD693007EEAD9 /* MainMenuViewController.swift in Sources */,
 				701E16A21E666894007EEAD9 /* Grid.swift in Sources */,
+				709A7FDF1E6BD71600CCCDA1 /* MultiplayerWaitingRoomViewController.swift in Sources */,
 				701E169B1E666870007EEAD9 /* BaseTower.swift in Sources */,
 				701E169C1E666870007EEAD9 /* TestMonster.swift in Sources */,
 				701E163A1E6126B3007EEAD9 /* GameViewController.swift in Sources */,
+				701E16A71E6BD665007EEAD9 /* SignInViewController.swift in Sources */,
+				701E16AD1E6BD6A1007EEAD9 /* GameModeViewController.swift in Sources */,
+				709A7FDB1E6BD6D100CCCDA1 /* DifficultyViewController.swift in Sources */,
+				709A7FDD1E6BD6EB00CCCDA1 /* SettingsViewController.swift in Sources */,
 				701E16321E6126B3007EEAD9 /* AppDelegate.swift in Sources */,
 				701E16991E666870007EEAD9 /* BaseMonster.swift in Sources */,
+				701E16A91E6BD67D007EEAD9 /* SignUpViewController.swift in Sources */,
 				701E169E1E666870007EEAD9 /* TestTower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

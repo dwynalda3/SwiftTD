@@ -10,6 +10,10 @@ import UIKit
 
 class GameModeViewController: UIViewController {
 
+    @IBOutlet weak var newGameButton: UIButton!
+    @IBOutlet weak var resumeGameButton: UIButton!
+    @IBOutlet weak var newMultiplayerGameButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

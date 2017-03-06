@@ -9,7 +9,9 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    @IBOutlet weak var soundEffectsSlider: UISlider!
+    @IBOutlet weak var musicSlider: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

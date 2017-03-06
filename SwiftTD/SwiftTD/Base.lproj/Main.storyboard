@@ -84,6 +84,9 @@
                                 <rect key="frame" x="139" y="169" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play"/>
+                                <connections>
+                                    <segue destination="FGM-LG-RFY" kind="show" id="6J0-26-7eF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -96,6 +99,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yR-gt-nCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-978.39999999999998" y="162.3688155922039"/>
+        </scene>
+        <!--Game Mode View Controller-->
+        <scene sceneID="YzQ-7p-Dhe">
+            <objects>
+                <viewController id="FGM-LG-RFY" customClass="GameModeViewController" customModule="SwiftTD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q8R-l5-kir"/>
+                        <viewControllerLayoutGuide type="bottom" id="WW7-4g-5TX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z4f-su-1Yx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOd-wW-yWn">
+                                <rect key="frame" x="137" y="198" width="101" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="New Game"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh8-R5-ppa">
+                                <rect key="frame" x="137" y="303" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Resume Game"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AmT-8I-J5G">
+                                <rect key="frame" x="106" y="406" width="163" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="New Multiplayer Game"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="newGameButton" destination="rOd-wW-yWn" id="7e7-lz-WdF"/>
+                        <outlet property="newMultiplayerGameButton" destination="AmT-8I-J5G" id="0fV-1d-boM"/>
+                        <outlet property="resumeGameButton" destination="gh8-R5-ppa" id="hD2-af-wOR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qkY-sQ-zVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-0.80000000000000004" y="163.26836581709148"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">

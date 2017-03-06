@@ -9,7 +9,10 @@
 import UIKit
 
 class DifficultyViewController: UIViewController {
-
+    @IBOutlet weak var easyButton: UIButton!
+    @IBOutlet weak var mediumButton: UIButton!
+    @IBOutlet weak var hardButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

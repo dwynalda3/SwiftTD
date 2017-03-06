@@ -162,20 +162,34 @@
                                 <rect key="frame" x="164" y="176" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Easy"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="qXy-DN-S21"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-Mn-jti">
                                 <rect key="frame" x="148" y="276" width="79" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Medium"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="uUg-Og-Q7A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKL-Xi-1Tg">
                                 <rect key="frame" x="164" y="400" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hard"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="OSe-xr-8GU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="easyButton" destination="Cqk-97-bHi" id="aix-Z8-kJN"/>
+                        <outlet property="hardButton" destination="EKL-Xi-1Tg" id="V0k-9a-W1d"/>
+                        <outlet property="mediumButton" destination="FAc-Mn-jti" id="WKG-wW-AaT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PG4-IY-8d4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,4 +214,7 @@
             <point key="canvasLocation" x="1513" y="-206"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="uUg-Og-Q7A"/>
+    </inferredMetricsTieBreakers>
 </document>

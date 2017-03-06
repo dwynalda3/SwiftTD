@@ -88,6 +88,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="playButton" destination="hfW-7k-D7f" id="7Lr-Sv-k1z"/>
+                        <outlet property="settingsButton" destination="vZf-V6-zJt" id="BON-Pr-dX2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yR-gt-nCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

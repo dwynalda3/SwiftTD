@@ -44,8 +44,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ref-AL-nRI">
-                                <rect key="frame" x="139" y="195" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eiH-Zt-lW6">
+                                <rect key="frame" x="139" y="184" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -58,8 +58,7 @@
                         <outlet property="passWordField" destination="LCY-aG-0iT" id="hav-6z-fib"/>
                         <outlet property="signIn" destination="drx-V6-cP4" id="kNa-J2-NxZ"/>
                         <outlet property="signUp" destination="fU7-0f-KlR" id="fFJ-JG-5Kw"/>
-                        <outlet property="userName" destination="Ref-AL-nRI" id="4rP-8I-G9W"/>
-                        <outlet property="userNameField" destination="Ref-AL-nRI" id="TNX-Ug-d9P"/>
+                        <outlet property="userNameField" destination="eiH-Zt-lW6" id="LwW-lw-c7O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckQ-tx-KE5" userLabel="First Responder" sceneMemberID="firstResponder"/>

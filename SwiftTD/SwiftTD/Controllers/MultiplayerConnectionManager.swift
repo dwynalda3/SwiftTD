@@ -24,20 +24,24 @@ class MultiplayerConnectionManager : NSObject {
     //advertises service
     private let serviceAdvertiser : MCNearbyServiceAdvertiser
     
+    //scans for service
+    private let serviceBrowser : MCNearbyServiceBrowser
+    
     override init() {
         self.serviceAdvertiser = MCNearbyServiceAdvertiser(peer: myPeerId, discoveryInfo: nil, serviceType: multiplayerServiceType)
+        self.serviceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: multiplayerServiceType)
         
         super.init()
         self.serviceAdvertiser.delegate = self
-        
-        //start advertising on init
         self.serviceAdvertiser.startAdvertisingPeer()
+        
+        self.serviceBrowser.delegate = self
+        self.serviceBrowser.startBrowsingForPeers()
     }
     
     deinit {
-        
-        //stop advertising on close
         self.serviceAdvertiser.stopAdvertisingPeer()
+        self.serviceBrowser.stopBrowsingForPeers()
     }
     
 }
@@ -50,6 +54,22 @@ extension MultiplayerConnectionManager : MCNearbyServiceAdvertiserDelegate {
     
     func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
         NSLog("%@", "didReceiveInvitationFromPeer \(peerID)")
+    }
+    
+}
+
+extension MultiplayerConnectionManager : MCNearbyServiceBrowserDelegate {
+    
+    func browser(_ browser: MCNearbyServiceBrowser, didNotStartBrowsingForPeers error: Error) {
+        NSLog("%@", "didNotStartBrowsingForPeers: \(error)")
+    }
+    
+    func browser(_ browser: MCNearbyServiceBrowser, foundPeer peerID: MCPeerID, withDiscoveryInfo info: [String : String]?) {
+        NSLog("%@", "foundPeer: \(peerID)")
+    }
+    
+    func browser(_ browser: MCNearbyServiceBrowser, lostPeer peerID: MCPeerID) {
+        NSLog("%@", "lostPeer: \(peerID)")
     }
     
 }

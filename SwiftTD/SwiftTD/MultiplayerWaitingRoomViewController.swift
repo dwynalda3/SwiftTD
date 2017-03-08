@@ -10,6 +10,8 @@ import UIKit
 
 class MultiplayerWaitingRoomViewController: UIViewController {
 
+    let multiplayerServer = MultiplayerConnectionManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = BACKGROUND_COLOR

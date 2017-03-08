@@ -16,6 +16,7 @@ class GameModeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = BACKGROUND_COLOR
 
         // Do any additional setup after loading the view.
     }
